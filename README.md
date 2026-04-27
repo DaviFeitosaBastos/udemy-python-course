@@ -43,6 +43,12 @@ Any file can be executed directly with Python 3:
 ```bash
 python3 section-01-basics/loops/for_basic.py
 ```
+or 
+```bash
+cd section-01-basics/loops/
+
+python3 for_basic.py
+```
 
 No external dependencies required — pure Python.
 
