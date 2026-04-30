@@ -36,10 +36,14 @@ def clear():
 while True:
 
     CPF = input("Digite o CPF: ")
-    CPF = re.sub(r'[.-]', '', CPF)
+    numeros = "".join([char for char in CPF if char.isdigit()])
 
-    
+    multiplying = 0
+    for i in numeros:
+        i *= multiplying
 
+    print(multiplying)
+    print(numeros)
 
 
 
